@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Jeremi Friggit Portfolio",
+    siteUrl: 'https://www.yourdomain.tld',
+    title: 'Jeremi Friggit Portfolio'
   },
-  plugins: [],
-};
+  plugins: [
+    'gatsby-plugin-postcss',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp'
+  ]
+}
