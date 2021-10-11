@@ -7,9 +7,9 @@ h1 {
 }
 
 .bg {
-  @apply bg-gradient-to-br from-purple-600 to-pink-500 h-full;
+  @apply bg-gradient-to-br from-purple-600 to-pink-500 min-h-screen relative;
 }
 
 .content {
-  @apply p-5 shadow-md bg-white rounded-lg container m-auto;
+  @apply p-5 shadow-md bg-white rounded-lg container mx-auto my-1;
 }
