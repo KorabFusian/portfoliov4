@@ -5,46 +5,40 @@ import Layout from '../components/Layout'
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <StaticImage alt="me" src="../images/postureo.jpg" />
-      <p>Hi there! I'm Jeremi Friggit.</p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie
-      fermentum justo, in ultricies urna interdum mattis. Integer et mattis leo.
-      Aliquam fringilla enim nibh, sed dignissim nisi blandit in. Mauris commodo
-      enim tempus magna vulputate mollis. Pellentesque sed sapien feugiat,
-      tincidunt nisl id, iaculis nulla. Sed rutrum nisl erat, sit amet fringilla
-      nisi faucibus eget. Mauris in massa ac arcu fringilla sagittis. Nunc vel
-      enim elit. Integer ultrices diam quis feugiat cursus. Sed mattis dolor nec
-      volutpat placerat. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Nam molestie risus quis enim
-      vehicula semper. Suspendisse vehicula sapien sit amet dolor fringilla
-      condimentum. Nunc odio lorem, suscipit eget luctus a, molestie eu lectus.
-      Nullam nec venenatis eros. Maecenas venenatis mi fermentum sem laoreet
-      venenatis. Nullam ac velit convallis, semper arcu nec, tristique ante.
-      Aliquam ut velit enim. Duis viverra rhoncus mattis. Nullam dapibus, tellus
-      a egestas finibus, est lorem ullamcorper risus, vel rutrum sem urna at
-      risus. Morbi sed malesuada nibh, nec gravida lectus. Sed sagittis
-      porttitor magna vel scelerisque. In sagittis leo non nulla viverra
-      dignissim. Maecenas posuere enim libero, sit amet interdum urna
-      scelerisque eget. Proin ligula nisi, laoreet ultrices urna non, facilisis
-      viverra justo. Vestibulum viverra quis augue ac sodales. Sed pharetra
-      cursus nulla vel suscipit. Nam laoreet pharetra magna eu rutrum. Cras et
-      libero viverra ante maximus imperdiet at at arcu. Fusce a accumsan sem.
-      Maecenas ac laoreet lectus. Integer ac libero hendrerit, varius velit ac,
-      vulputate neque. Pellentesque ornare, orci id vehicula pellentesque,
-      mauris libero mollis erat, a faucibus metus libero eu turpis. Aenean vitae
-      viverra nisi, nec hendrerit velit. Duis metus orci, viverra eget porttitor
-      id, vulputate et ante. Etiam condimentum, turpis et semper viverra, eros
-      dolor cursus eros, eget molestie turpis mauris nec tortor. Phasellus
-      fringilla felis ut neque luctus, interdum hendrerit sapien fermentum.
-      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-      inceptos himenaeos. Mauris a pharetra mi. Nam quis pharetra felis. Lorem
-      ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie eget est
-      congue luctus. Cras suscipit tincidunt ipsum a cursus. Nulla mollis nisl
-      ligula, quis sodales nulla faucibus quis. Nunc risus neque, pellentesque
-      eu lacinia vel, iaculis a lacus. Fusce ac dictum velit. Duis eget justo a
-      dolor vehicula feugiat. Pellentesque habitant morbi tristique senectus et
-      netus et malesuada fames ac turpis egestas. Donec venenatis hendrerit
-      vehicula. Donec imperdiet placerat augue.
+      <div class="flex flex-row mt-6">
+        <StaticImage alt="a picture of me!" src="../images/postureov2.jpg" />
+        <div class="ml-6">
+          <h2>Hi there! I'm Jeremi Friggit.</h2>
+          <h3>...but you probably got that by now.</h3>
+          <p>
+            I'm a new software engineer who studied at the digital engineering
+            school Efrei Paris, majoring in Image, 3D and Virtual Reality.
+          </p>
+          <br />
+          <h2>Some fun facts about me:</h2>
+          <ul>
+            <li>
+              <h3>- I like music. A lot. </h3>I like listening to (almost) all
+              types of music, but mostly creating it. I play the piano, the sax
+              and the bass, and I'm learning guitar and drums. I also produce on
+              several DAWs (mostly Ableton and MASCHINE), and I have released
+              some tracks on Spotify.
+            </li>
+            <li>
+              <h3>- I speak 3 languages.</h3>I am fluent in French, English and
+              Spanish. That's because I was born in London (where I lived until
+              I was 6) and raised in Madrid, where I lived for 11 years. I am
+              also currently learning Japanese.
+            </li>
+            <li>
+              <h3>- I've been in love with VFX for over 10 years.</h3>I started
+              making videos on iMovie when I was 8. When I was 11, I started
+              actually making VFX in Adobe After Effects, and that's what got me
+              into 3D, which is now what I'm majoring in.
+            </li>
+          </ul>
+        </div>
+      </div>
     </Layout>
   )
 }
